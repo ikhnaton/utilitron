@@ -1,0 +1,19 @@
+{
+  "name": "utilitron",
+  "version": "0.0.1",
+  "description": "Various utilities to accomplish various unusual tasks that I've developed over time as needed.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ikhnaton <ikhnaton@techie.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "verbose": true,
+    "testURL": "http://localhost"
+  }
+}
