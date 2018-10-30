@@ -2,6 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 const requireMultipleFiles = (fpath, type) => {
+    return getMultipleFilePath(fpath, type).map(item => require(item));;
+}
+
+const getMultipleFilePath = (fpath, type) => {
     
     const parse = (myPath, type) => 
     {
@@ -22,10 +26,8 @@ const requireMultipleFiles = (fpath, type) => {
         }, []);
     };
 
-    const res = parse(fpath, type);
-    const final = res.map(item => require(item));
+    const final = parse(fpath, type);
 
     return final;
 }
-
 module.exports = { requireMultipleFiles };
