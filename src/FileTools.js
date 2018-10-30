@@ -30,4 +30,4 @@ const getMultipleFilePath = (fpath, type) => {
 
     return final;
 }
-module.exports = { requireMultipleFiles };
+module.exports = { requireMultipleFiles, getMultipleFilePath };

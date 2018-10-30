@@ -1,6 +1,6 @@
 {
   "name": "utilitron",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Various utilities to accomplish various unusual tasks that I've developed over time as needed.",
   "main": "src/index.js",
   "scripts": {
